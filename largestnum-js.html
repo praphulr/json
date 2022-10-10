@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Largest Number Among 5 Numbers</title>
+    <script type="text/javascript">
+   
+    </script>
+</head>
+<body>
+    <input type="submit" name="" onclick="five_max()">
+</body>
+</html>
+<script type="text/javascript">
+    function five_max() {
+     var a = parseInt(prompt("Enter first number: "));
+     var b = parseInt(prompt("Enter second number: "));
+     var c = parseInt(prompt("Enter third number: "));
+     var d = parseInt(prompt("Enter fourth number: "));
+     var e = parseInt(prompt("Enter fifth number: "));
+ 
+     if (a > b && a > c && a > d && a > e) {
+        alert("The max number is " + a);
+     } else if (b > a && b > c && b > d && b > e) {
+        alert("The max number is " + b);
+     } else if (c > a && c > b && c > d && c > e) {
+        alert("The max number is " + c);
+     } else if (d > a && d > b && d > c && d > e) {
+        alert("The max number is " + d);
+     } else {
+        alert("The max number is " + e);
+     }
+   }
+ </script>      
+</body>
+</html>
